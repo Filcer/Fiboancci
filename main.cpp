@@ -1,6 +1,6 @@
 int main ()
 {
-fibonaccirec()
+fibonaccirec();
 }
 
 
@@ -23,5 +23,4 @@ signed int fibonaccirec(int n)
   return n;
   }
 return fibonacci(n-2)+fibonacci(n-1);
-  
 }
